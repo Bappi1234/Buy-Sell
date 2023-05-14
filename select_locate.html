@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>this is title</title>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../css/home.css" />
+	<link rel="stylesheet" href="css/select_locate.css" />
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:10,
+		animSpeed:500,
+		pauseTime:4000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+
+</head>
+
+<body>
+ <!--Start of Menu Area-->
+		<div class="stracture header fix">
+		 <div class="icon_add floatleft">
+		   <a href=""> <img src="../image/icon.jpg" alt="" />
+			<h3>Buy & Sell</h3></a>
+			<a href="../home.php"><h4>All adds</h4></a>
+			<a href="../Bangla/bangla_add_service/bangla select_locate.html"><h5>বাংলা</h5></a>
+		 </div>
+		 <div class="add floatright">
+		   <div class="comment_login">
+		     <a href="../sms.php"><i class="fa fa-comments"></i></a>
+			</div>
+			<div class="user_login">
+              <a href="../log in.php"><i class="fa fa-user-o"></i>
+		      <h5>Log in</h5></a>
+		   </div>
+		   
+		     <a href="../free_add.php"><h1>Post Your Add</h1></a>
+		 </div>
+	     
+		</div>    <!--End of Menu Area-->
+		
+  
+<div class="location_area">
+  <div class="select_location">
+       <img src="../image/dag.PNG" alt="" />
+     <h1>Select City or Division:</h1>
+	<div class="dhaka_city">
+    <ul>
+	      <hr />
+	    <li>Cities</li><hr />
+		<li><a href="">Dhaka<i class="fa fa-angle-right"></i></a>
+	     <ul>
+		    <h2>Select a local area within Dhaka:</h2>
+			   <h3>Popular areas :</h3><hr />
+		   <li> <a href="">Mirpur</a></li><hr />
+		    <li> <a href="">Uttara</a></li><hr />
+		    <li> <a href="">Dhanmondi</a></li><hr />
+		    <li> <a href="">Gulshan</a></li><hr />
+		    <li> <a href="">Mohammadpur</a></li><hr />
+			 <select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Badda</a></option>
+			   <option><a href="">Banani</a></option>
+			   <option><a href="">Banani DOHS</a></option>
+			   <option><a href="">Bangla Motor</a></option>
+			   <option><a href="">Bangshal</a></option>
+			   <option><a href="">Baridhara</a></option>
+			   <option><a href="">Basabo</a></option>
+			   <option><a href="">Bashundhara</a></option>
+			   <option><a href="">Cantonment</a></option>
+			   <option><a href="">Chaukbazar</a></option>
+			   <option><a href="">Demra</a></option>
+			   <option><a href="">Dhamrai</a></option>
+			   <option><a href="">Dohar</a></option>
+			   <option><a href="">Elephant Road</a></option>
+			   <option><a href="">Hazaribag</a></option>
+			   <option><a href="">Jatrabari</a></option>
+			   <option><a href="">Kafrul</a></option>
+			   <option><a href="">Kamrangirchar</a></option>
+			   <option><a href="">Kalabagan</a></option>
+			   <option><a href="">Kadamtali</a></option>
+			   <option><a href="">Keraniganj</a></option>
+			   <option><a href="">Khilgaon</a></option>
+			   <option><a href="">Khilkhet</a></option>
+			   <option><a href="">Kotwali</a></option>
+			   <option><a href="">Lalbagh</a></option>
+			   <option><a href="">Mohammadpur</a></option>
+			   <option><a href="">Motijheel</a></option>
+			   <option><a href="">New Market</a></option>
+			   <option><a href="">Pallabi</a></option>
+			   <option><a href="">Paltan</a></option>
+			   <option><a href="">Ramna</a></option>
+			   <option><a href="">Rampura</a></option>
+			   <option><a href="">Sabujbagh</a></option>
+			   <option><a href="">Savar</a></option>
+			   <option><a href="">Shajahanpur</a></option>
+			   <option><a href="">Sutrapur</a></option>
+			   <option><a href="">Tejgaon</a></option>
+			   <option><a href="">Tongi</a></option>
+			   <option><a href="">Wari</a></option>
+		 
+		 </select>
+		 </ul>
+	   </li>
+	</ul>
+</div>
+	
+	<div class="chittagong_area">
+		<hr />
+		<ul>
+		 <li><a href="">Chittagong<i class="fa fa-angle-right"></i></a>
+		   <ul>
+		   <h2>Select a local area within Chittagong:</h2>
+			   <h3>Popular areas :</h3><hr />
+		   <li> <a href="">Agrabad</a></li><hr />
+		    <li> <a href="">Chawkbazar</a></li><hr />
+		    <li> <a href="">Kotwali</a></li><hr />
+		    <li> <a href="">Nasirabad</a></li><hr />
+		    <li> <a href="">Halishahar</a></li><hr />
+			 <select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Anderkhila</a></option>
+			   <option><a href="">Anwara</a></option>
+			   <option><a href="">Bakalia</a></option>
+			   <option><a href="">Bayejid </a></option>
+			   <option><a href="">Bandar </a></option>
+			   <option><a href="">Boalkhali </a></option>
+			   <option><a href="">Chandgaon</a></option>
+			   <option><a href="">CDA Avenue</a></option>
+			   <option><a href="">Double Mooring</a></option>
+			   <option><a href="">Fatikchari</a></option>
+			   <option><a href="">Halishahar</a></option>
+			   <option><a href="">Hathazari</a></option>
+			   <option><a href="">Khulshi</a></option>
+			   <option><a href="">Kotwali</a></option>
+			   <option><a href="">Pahartali</a></option>
+			   <option><a href="">Panchlaish</a></option>
+			   <option><a href="">Paschim Gomdandi</a></option>
+			   <option><a href="">Patenga</a></option>
+			   <option><a href="">Patiya</a></option>
+			   <option><a href="">Sitakunda</a></option>
+			   
+			</select>
+		 </ul>
+	   </li>
+	</ul>
+	</div>
+	
+<div class="sylhet_area">
+	       <hr/>
+	<ul>
+	  <li><a href="">Sylhet<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Sylhet:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Bandar Bazar</a></li><hr />
+		  <li><a href="">Zinda Bazar</a></li><hr />
+		  <li><a href="">Amber Khana</a></li><hr />
+		  <li><a href="">Uposhohor</a></li><hr />
+		  <li><a href="">South Surma</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Akhalia</a></option>
+			   <option><a href="">Bag Bari</a></option>
+			   <option><a href="">Balaganj</a></option>
+			   <option><a href="">Beanibazar</a></option>
+			   <option><a href="">Bishwanath</a></option>
+			   <option><a href="">Bimanbondor</a></option>
+			   <option><a href="">Companiganj </a></option>
+			   <option><a href="">Chouhatta </a></option>
+			   <option><a href="">Dakshin Surma </a></option>
+			   <option><a href="">Fenchuganj </a></option>
+			   <option><a href="">Golapganj</a></option>
+			   <option><a href="">Gowainghat</a></option>
+			   <option><a href="">Jaintiapur</a></option>
+			   <option><a href="">Kanaighat</a></option>
+			   <option><a href="">Kumar para</a></option>
+			   <option><a href="">Lama bazar</a></option>
+			   <option><a href="">Majortila</a></option>
+			   <option><a href="">Osmani Nagar</a></option>
+			   <option><a href="">Sylhet Sadar</a></option>
+			   <option><a href="">Zakiganj</a></option>
+			   
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+	
+<div class="khulna_area">
+	       <hr/>
+	<ul>
+	  <li><a href="">Khulna<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Khulna:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Khulna Sadar</a></li><hr />
+		  <li><a href="">Sonadanga</a></li><hr />
+		  <li><a href="">Khalishpur</a></li><hr />
+		  <li><a href="">Daulatpur</a></li><hr />
+		  <li><a href="">Rupsa</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Batiaghata</a></option>
+			   <option><a href="">Boyra bazar</a></option>
+			   <option><a href="">Dumuria</a></option>
+			   <option><a href="">Dacope</a></option>
+			   <option><a href="">Daulatpur</a></option>
+			   <option><a href="">Gollamari</a></option>
+			   <option><a href="">Phultala</a></option>
+			   <option><a href="">Dighalia </a></option>
+			   <option><a href="">Khalishpur </a></option>
+			   <option><a href="">Koyra </a></option>
+			   <option><a href="">Koyla ghat</a></option>
+			   <option><a href="">Terokhada  </a></option>
+			   <option><a href="">Paikgachha  </a></option>
+			   <option><a href="">Pabla </a></option>
+			   <option><a href="">Khan Jahan Ali </a></option>
+			   <option><a href="">Sonadanga </a></option>
+
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="barisal_area">
+	       <hr/>
+	<ul>
+	  <li><a href="">Barisal<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Barisal:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Sadar Road</a></li><hr />
+		  <li><a href="">Nattullabad</a></li><hr />
+		  <li><a href="">Rupatali</a></li><hr />
+		  <li><a href="">Natun Bazar</a></li><hr />
+		  <li><a href="">Nobogram Road</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Amtala</a></option>
+			   <option><a href="">Bangla bazar</a></option>
+			   <option><a href="">Beltola Ferighat</a></option>
+			   <option><a href="">Chandmari</a></option>
+			   <option><a href="">Chawkbazar</a></option>
+			   <option><a href="">City Gate Barisal</a></option>
+			   <option><a href="">Kalizira</a></option>
+			   <option><a href="">Kashipur Bazar </a></option>
+			   <option><a href="">Launch Ghat </a></option>
+			   <option><a href="">Nazirmoholla</a></option>
+			   <option><a href="">Puran Bazar</a></option>
+			   <option><a href="">Uttar Alikanda</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="rajshahi_area">
+	       <hr/>
+	<ul>
+	  <li><a href="">Rajshahi<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Rajshahi:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Shaheb Bazar</a></li><hr />
+		  <li><a href="">Motihar</a></li><hr />
+		  <li><a href="">Uposahar</a></li><hr />
+		  <li><a href="">Laksimipur</a></li><hr />
+		  <li><a href="">Kazla</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Bagha</a></option>
+			   <option><a href="">Bagmara</a></option>
+			   <option><a href="">Baharampur</a></option>
+			   <option><a href="">Bosepara</a></option>
+			   <option><a href="">Charghat</a></option>
+			   <option><a href="">Durgapur</a></option>
+			   <option><a href="">Godagari</a></option>
+			   <option><a href="">Hatemkha</a></option>
+			   <option><a href="">Katakhali</a></option>
+			   <option><a href="">Mohanpur</a></option>
+			   <option><a href="">Nawdapara</a></option>
+			   <option><a href="">Paba</a></option>
+			   <option><a href="">Padma Residential Area </a></option>
+			   <option><a href="">Puthia</a></option>
+			   <option><a href="">Tanore</a></option>
+			   <option><a href="">Boalia</a></option>
+			   <option><a href="">Rajpara</a></option>
+			   <option><a href="">Rani Nagar</a></option>
+			   <option><a href="">Shah Makdam </a></option>
+			   <option><a href="">Shiroil </a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="rangpur_area">
+	       <hr/>
+	<ul>
+	  <li><a href="">Rangpur<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Rangpur:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Jahaj Company More</a></li><hr />
+		  <li><a href="">Dhap</a></li><hr />
+		  <li><a href="">Shapla Chottor</a></li><hr />
+		  <li><a href="">Lalbag Mor</a></li><hr />
+		  <li><a href="">Shatmatha Chottor</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Alamdangha</a></option>
+			   <option><a href="">Bodorganj</a></option>
+			   <option><a href="">College Para</a></option>
+			   <option><a href="">kachari Bazar</a></option>
+			   <option><a href="">Mahiganj</a></option>
+			   <option><a href="">Mithapukur</a></option>
+			   <option><a href="">Modern More</a></option>
+			   <option><a href="">Paglapir</a></option>
+			   <option><a href="">Pouro Bazar</a></option>
+			   <option><a href="">Shathibari</a></option>
+			   <option><a href="">Shatrasta More</a></option>
+			   <option><a href="">Tajhat</a></option> 
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="dhaka_division">
+	       <hr/>
+	<ul>
+	  <li>Division</li><hr />
+	  <li><a href="">Dhaka division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Dhaka division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Gazipur</a></li><hr />
+		  <li><a href="">Narayanganj</a></li><hr />
+		  <li><a href="">Mymensingh</a></li><hr />
+		  <li><a href="">Tangail</a></li><hr />
+		  <li><a href="">Narsingdi</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Faridpur</a></option>
+			   <option><a href="">Gopalganj</a></option>
+			   <option><a href="">Jamalpur</a></option>
+			   <option><a href="">kishoreganj</a></option>
+			   <option><a href="">Madaripur</a></option>
+			   <option><a href="">Manikganj</a></option>
+			   <option><a href="">Munshiganj</a></option>
+			   <option><a href="">Netrokona</a></option>
+			   <option><a href="">Rajbari</a></option>
+			   <option><a href="">Shariatpur</a></option>
+			   <option><a href="">Sherpur</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="chittagong_division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Chittagong division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Chittagong division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Comilla</a></li><hr />
+		  <li><a href="">Feni</a></li><hr />
+		  <li><a href="">Noakhali</a></li><hr />
+		  <li><a href="">Brahmanbaria</a></li><hr />
+		  <li><a href="">Chandpur</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Bandarban</a></option>
+			   <option><a href="">Cox's Bazar</a></option>
+			   <option><a href="">Khagrachhari</a></option>
+			   <option><a href="">Lakshmipur</a></option>
+			   <option><a href="">Rangamati</a></option>
+			   <option><a href="">Sitakundo</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+<div class="sylhet_division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Sylhet division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Sylhet division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Maulvi Bazar</a></li><hr />
+		  <li><a href="">Habiganj</a></li><hr />
+		  <li><a href="">Sunamganj</a></li><hr />
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="khulna_division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Khulna division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Khulna division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Jessore</a></li><hr />
+		  <li><a href="">Kushtia</a></li><hr />
+		  <li><a href="">Jhenaidah</a></li><hr />
+		  <li><a href="">Satkhira</a></li><hr />
+		  <li><a href="">Bagerhat</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Chuadanga</a></option>
+			   <option><a href="">Magura</a></option>
+			   <option><a href="">Meherpur</a></option>
+			   <option><a href="">Narail</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="rajshahi_Division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Rajshahi Division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Rajshahi division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Pabna</a></li><hr />
+		  <li><a href="">Bogra</a></li><hr />
+		  <li><a href="">Natore</a></li><hr />
+		  <li><a href="">Sirajganj</a></li><hr />
+		  <li><a href="">Naogaon</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Chapainawabganj</a></option>
+			   <option><a href="">Joypurhat</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="rangpur_Division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Rangpur Division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Rangpur division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Dinajpur</a></li><hr />
+		  <li><a href="">Nilphamari</a></li><hr />
+		  <li><a href="">Saidpur</a></li><hr />
+		  <li><a href="">Kurigram</a></li><hr />
+		  <li><a href="">Gaibandha</a></li><hr />
+			<select class="other_area">
+			   <option>Other areas (A-Z)</option>
+			   <option><a href="">Lalmonirhat</a></option>
+			   <option><a href="">Panchagarh</a></option>
+			   <option><a href="">Thakurgaon</a></option>
+			</select>
+		</ul>	
+	  </li>
+	</ul>
+</div>
+
+<div class="barisal_Division">
+	       <hr/>
+	<ul>
+	  <li><a href="">Barisal Division<i class="fa fa-angle-right"></i></a>
+		<ul>
+		  <h2>Select a local area within Barisal division:</h2>
+			<h3>Popular areas :</h3><hr />
+		  <li><a href="">Patuakhali</a></li><hr />
+		  <li><a href="">Pirojpur</a></li><hr />
+		  <li><a href="">Bhola</a></li><hr />
+		  <li><a href="">Barguna</a></li><hr />
+		  <li><a href="">Jhalokati</a></li><hr />
+		</ul>	
+	  </li>
+	</ul>
+	<hr/>
+</div>
+
+  </div>
+</div>
+<!--Start of footer_top_area-->
+	<div class="footer_top_area fix">
+		<div class="stracture footer_top fix">
+		   <div class="contact_u">
+	   <p>Download our app</p>
+	    <div class="play_store">
+	        <a href="https://play.google.com/store"><img src="../image/en_badge_web_generic.png" alt="dd" /></a>
+		</div>
+		<div class="apple_store ">
+	     <a href="https://www.apple.com/ios/app-store/"><img  src="../image/apple-app-store-icon.png" alt="dd" /></a>
+		</div>
+	   <h1>Connect with us</h1>
+	    <a href="https://www.facebook.com/Laptop-Sale-795953407194487/"><image class="facebook_i" src="../image/facebook.jpg" alt="" />
+		<h2>Like us on facebook</a></h2>
+	</div>
+<div class="quick_links">
+	  <p>Learn More</p> 
+	  <h1><a href="../footer/salefast.html">How to sell fast</a></h1>
+	  <h2><a href="../footer/servicefast.html">How to Service fast</a></h2>
+	  <h3><a href="../footer/buy.html">Buy Now on </a></h3>
+	  <h4><a href="../footer/member.html">Membership</a></h4>
+	  <h5><a href="../footer/banner.html">Banner Advertising</a></h5>
+	  <h6><a href="../footer/promot.html">Promote your ad</a></h6>
+	</div>
+	<div class="from_blog">
+	  <p>Help & Support</p>
+	  <h5><a href="../footer/servicing.html">Servicing</a></h5>
+	  <h1><a href="">FAQ</a></h1>
+	  <h2><a href="../footer/safe_on.html">Stay safe on Buy & Sell</a> </h2>
+	  <h4><a href="../footer/contact.html">Contact us</a></h4>
+	</div>
+	<div class="link_blog">
+	  <p>Social</p>
+	  <h1><a href="">Blog</a></h1>
+	  <h2><a href="https://www.facebook.com/Laptop-Sale-795953407194487/">Facebook</a></h2>
+	  <h3><a href="https://www.youtube.com/channel/UCun-dXxU_9HCDeuNGqBzPPw/videos">YouTube</a></h3>
+	  <h4><a href="https://plus.google.com/collection/YmTrWE">Google+</a></h4>
+	</div>
+	<div class="news_latter">
+	   <p>About us</p>
+	  <h1><a href="../footer/about.html">About us</a></h1>
+	  <h2><a href="../footer/career.html">Career</a></h2>
+	  <h3><a href="../footer/terms.html">Terms & Conditions</a> </h3>
+	  <h4><a href="../footer/privacy.html">Privacy Policy</a></h4>
+	  <h5><a href="../footer/map.html">Sitemap</a></h5>
+	</div>
+	</div>
+	</div>
+	<!--End of footer_top_are-->
+	
+	 <!--Start of footer_bottom_area-->
+
+	<div class="footer_bottom_area fix">
+		<div class="stracture footer_bottom fix">
+		  <div class="copyright_info floatleft fix">
+		    <p>&copy; Engineer Md. Harunur Rosid</p>
+		  </div>
+		   <div class="powered_by floatright fix">
+		      <h4>Powerd by :</h4>
+			<a href=""><img src="../image/icon.jpg" alt="" />
+			    <p> Buy & Sell</a></p>
+		  </div>
+		</div>
+	</div> <!--End of footer_top_area-->
+	
+<script type="text/javascript" src="js/scrolltop.js"></script>
+<script> <!--Start Google Analyticts Option-->
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-XXXXXXXX-X', 'auto');
+  ga('send', 'pageview');
+</script><!--End Google Analyticts Option-->
+</body>
+</html>
